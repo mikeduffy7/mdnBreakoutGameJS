@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="{{ app()->getLocale() }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Laravel</title>
+
+        <style>
+            * { padding: 0; margin: 0; }
+            canvas { background: #eee; display: block; margin: 0 auto; }
+            #myCanvas { margin-top: 30px; }
+        </style>
+
+    </head>
+    <body>
+        <canvas id="myCanvas" width="480" height="320"></canvas>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
